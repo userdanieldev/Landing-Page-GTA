@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Landing Page GTA</title>
+		<link rel="shortcut icon" href="src/imagens/favicon.png" type="image/x-icon" />
+		<link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
+
+		<link rel="stylesheet" href="./src/css/reset.css" />
+		<link rel="stylesheet" href="./src/css/estilos.css" />
+		<link rel="stylesheet" href="./src/css/fontes.css" />
+    	<link rel="stylesheet" href="./src/css/responsivo.css">
+	</head>
+	<body>
+		<header class="cabecalho">
+			<div class="logo">
+				<img src="./src/imagens/logo-rockstar.svg" alt="Logo Rockstar Games" />
+				<hr />
+				<img src="./src/imagens/logo-gta.svg" alt="Logo GTA V" />
+			</div>
+			<nav>
+				<ul class="menu">
+					<li>
+						<a href="#home">Home</a>
+					</li>
+					<li>
+						<a href="#comprar">Comprar</a>
+					</li>
+					<li>
+						<a href="https://support.rockstargames.com/categories/200013306" target="_blank">Suporte <img src="./src/imagens/icone-link.svg" alt="Icone de link de suporte" /></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main class="home" id="home">
+			<img class="imagem-fundo" src="./src/imagens/bg-main.png" alt="foto de fundo com um carro esportito" />
+
+			<div class="informacoes">
+				<div class="lista-de-jogos">
+					<img src="./src/imagens/logo-gta-v.svg" alt="Logo GTA V" />
+					<img src="./src/imagens/logo-gta-online.svg" alt="Logo GTA Online" />
+				</div>
+				<h1 class="titulo">Já disponíveis para Playstation 5 e Xbox Series X|S</h1>
+				<p class="texto">Experimente os fênomenos de entretenimento Grand Theft Auto V e GTA Online</p>
+
+				<a class="btn-comprar" href="#comprar">Compre já</a>
+			</div>
+		</main>
+		<section class="compre-ja" id="comprar">
+			<h2 class="titulo">Compre já</h2>
+			<div class="cartao">
+				<img class="capa-do-jogo" src="./src/imagens/gta5.jpg" alt="Capa do jogo GTA V" />
+
+				<div class="informacoes">
+					<h3>Grand Theft Auto V</h3>
+					<p>
+						Inclui <strong>modo história do GTA V</strong> e
+						<strong>GTA Online</strong>
+					</p>
+					<ul class="plataformas">
+						<li>
+							<img src="./src/imagens/logo-ps5.svg" alt="Logo Playstation 5" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-xbox-series-s.svg" alt="Logo Xbox series X|S" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-ps4.svg" alt="Logo Playstation 4" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-xbox-one.svg" alt="Logo Xbox One" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-pc.svg" alt="Logo PC" />
+						</li>
+					</ul>
+				</div>
+				<button class="btn-plataforma">
+					Selecione a plataforma
+
+					<ul class="plataformas">
+						<li>
+							<img src="./src/imagens/logo-ps5.svg" alt="Logo Playstation 5" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-xbox-series-s.svg" alt="Logo Xbox series X|S" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-ps4.svg" alt="Logo Playstation 4" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-xbox-one.svg" alt="Logo Xbox One" />
+						</li>
+						<li>
+							<img src="./src/imagens/logo-pc.svg" alt="Logo PC" />
+						</li>
+					</ul>
+				</button>
+			</div>
+		</section>
+		<div class="GTA-Online" id="Online">
+			<img class="imagem-fundoOnline" src="/src/imagens/gta-capamoney.jpg" alt="Capa padrão GTA Online" />
+			<div class="informacoes">
+				<h1 class="titulo">Grand Theft Auto Online</h1>
+				<p class="texto">Explore GTA Online, um universo online dinâmico em constante evolução para até 30 jogadores, incluindo todas as atualizações de jogo, expansões e conteúdo adicionados desde o lançamento do GTA Online prontos para jogar a sós ou com amigos.</p>
+				<a class="btn-comprar" href="#comprar">Compre já</a>
+			</div>
+		</div>
+		<div class="carrossel">
+			<h1 class="Updates">Updates Recentes</h1>
+			<div class="carrossel-conteudo">
+				<button class="anterior" onclick="slideAnterior()">&#10094;</button>
+				<div class="slides">
+					<div class="slide">
+						<img src="/src/imagens/Bottom Dollar Bounties.jpg" alt="Bottom Dollar Bounties" />
+					</div>
+					<div class="slide">
+						<img src="/src/imagens/TheCluckinBellFarmRaid-GTAO-Artwork.webp" alt="The Cluckin' Bell Farm Raid" />
+					</div>
+					<div class="slide">
+						<img src="/src/imagens/thechop.jpg" alt="The Chop Shop" />
+					</div>
+					<div class="slide">
+						<img src="/src/imagens/mercenaries.jpg" alt="San Andreas Mercenaries" />
+					</div>
+					<div class="slide">
+						<img src="/src/imagens/drug.webp" alt="Los Santos Drug Wars" />
+					</div>
+					<div class="slide">
+						<img src="/src/imagens/thecriminal.jpg" alt="The Criminal Enterprises" />
+					</div>
+				</div>
+				<button class="proximo" onclick="slideProximo()">&#10095;</button>
+			</div>
+		</div>
+		<div class="card-mapa">
+			<div class="texto-mapa">
+				<h2 class="titulo-mapa">Explore o Mundo do GTA 5 Online</h2>
+				<p class="texto-mapa-p">Junte-se a nós no mapa mais icônico de todos os tempos. Prepare-se para descobrir Los Santos com outros jogadores e crie sua própria história. Vamos nos encontrar nas ruas e enfrentar novos desafios. Entre agora e viva essa experiência épica!</p>
+			</div>
+			<div class="imagem-mapa">
+				<img src="/src/imagens/map.jpeg" alt="Mapa GTA 5">
+			</div>
+		</div>
+		</div>
+		<hr color="#000">
+		<h1 class="title-card">conteúdo</h1><br>
+		<div class="container">
+			<div class="card" onclick="openUpdate('bottom-dollar')">
+			  <img src="/src/imagens/cayo perico.jpg" alt="Cayo Perico">
+			  <div class="card-title">Cayo Perico</div>
+			</div>
+		
+			<div class="card" onclick="openUpdate('cluckin-bell')">
+			  <img src="/src/imagens/GTA_Online_12_5_2019_The_Diamond_Casino_Heist.webp" alt="The Diamond Casino Heist">
+			  <div class="card-title">The Diamond Casino Heist</div>
+			</div>
+		
+			<div class="card" onclick="openUpdate('chop-shop')">
+			  <img src="/src/imagens/doomsyday.jpg" alt="The Doomsday Heist">
+			  <div class="card-title">The Doomsday Heist</div>
+			</div>
+		
+			<div class="card" onclick="openUpdate('mercenaries')">
+			  <img src="/src/imagens/heists.jpg" alt="Original Heists">
+			  <div class="card-title">Original Heists</div>
+			</div>
+		
+			<div class="card" onclick="openUpdate('drug-wars')">
+			  <img src="/src/imagens/biker.webp" alt="Bikers">
+			  <div class="card-title">Bikers</div>
+			</div>
+		
+			<div class="card" onclick="openUpdate('paper-trail')">
+			  <img src="/src/imagens/Lowriders-GTAO-Artwork.webp" alt="Lowriders">
+			  <div class="card-title">Lowriders</div>
+			</div>
+		
+			<div class="card" onclick="openUpdate('contract')">
+			  <img src="/src/imagens/ImportExport-GTAO-Artwork.webp" alt="Import / Export">
+			  <div class="card-title">Import / Export</div>
+			</div>
+		
+			<div class="card" onclick="openUpdate('tuners')">
+			  <img src="/src/imagens/GTAOnline-LosSantosTuners-Artwork.webp" alt="Los Santos Tuners">
+			  <div class="card-title">Los Santos Tuners</div>
+			</div>
+
+			<div class="card" onclick="openUpdate('tuners')">
+				<img src="/src/imagens/cassino.webp" alt="The Diamond Casino & Resort">
+				<div class="card-title">The Diamond Casino & Resort</div>
+			  </div>
+
+			  <div class="card" onclick="openUpdate('tuners')">
+				<img src="/src/imagens/corridas.jpg" alt="Racing">
+				<div class="card-title">Racing</div>
+			  </div>
+		  </div>
+		  <section class="formulario-secao">
+			<div class="formulario-conteudo">
+				<div class="imagem-lateral">
+					<img src="/src/imagens/personagens.png" alt="Descrição da Imagem">
+				</div>
+				<div class="formulario-container">
+					<h2>Entre em Contato</h2>
+					<form action="#" method="POST">
+						<div class="campo">
+							<label for="nome">Nome</label>
+							<input type="text" id="nome" name="nome" required>
+						</div>
+						<div class="campo">
+							<label for="email">E-mail</label>
+							<input type="email" id="email" name="email" required>
+						</div>
+						<div class="campo">
+							<label for="mensagem">Mensagem</label>
+							<textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+						</div>
+						<div class="campo">
+							<button type="submit" class="btn-enviar">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<div class="tabela-requisitos">
+			<h2>Requisitos para rodar o jogo</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Componentes</th>
+						<th>Requisitos Mínimos</th>
+						<th>Requisitos Recomendados</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Processador</td>
+						<td>Intel Core 2 Quad CPU Q6600 @ 2.40 GHz (4 CPUs) / AMD Phenom 9850 Quad-Core (4 CPUs) @ 2.5 GHz</td>
+						<td>Intel Core i5 3470 @ 3.2 GHZ (4 CPUs) / AMD X8 FX-8350 @ 4 GHZ (8 CPUs)</td>
+					</tr>
+					<tr>
+						<td>Placa de vídeo</td>
+						<td>NVIDIA 9800 GT 1 GB / AMD HD 4870 1 GB (DX 10, 10.1, 11)</td>
+						<td>NVIDIA GTX 660 2 GB / AMD HD7870 2 GB</td>
+					</tr>
+					<tr>
+						<td>Memória RAM</td>
+						<td>4 GB</td>
+						<td>8 GB</td>
+					</tr>
+					<tr>
+						<td>Sistema Operacional</td>
+						<td>Windows 10 (64-bit)</td>
+						<td>Windows 10 (64-bit)</td>
+					</tr>
+					<tr>
+						<td>Armazenamento</td>
+						<td>120 GB de espaço livre</td>
+						<td>120 GB de espaço livre (SSD recomendado)</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<hr color="#fff">
+		<footer>
+			<div class="rodape-container">
+				<div class="rodape-secao logo">
+					<h2>Rockstar Games</h2>
+					<img src="/src/imagens/logo-rockstar.svg" alt="">
+				</div>
+				
+				<div class="rodape-secao navegacao">
+					<h3>Navegação</h3>
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#comprar">Comprar</a></li>
+						<li><a href="#Online">GTA-Online</a></li>
+						<li><a href="https://support.rockstargames.com/categories/200013306">Suporte</a></li>
+					</ul>
+				</div>
+				<div class="rodape-secao redes-sociais">
+					<h3>Redes Sociais</h3>
+					<ul>
+						<li><a href="https://www.instagram.com/rockstargames/">Instagram</a></li>
+						<li><a href="https://twitter.com/rockstargames">Twitter</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>&copy;Rockstar Games. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+			<script src="./src/js/index.js"></script>
+	</body>
+</html>
