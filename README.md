@@ -15,7 +15,7 @@ Olá! Me chamo Daniel e este projeto é uma landing page inspirada no universo d
 
 ## Objetivo 🎯
 
-O objetivo deste projeto é aplicar os conceitos aprendidos durante o curso de **Desenvolvimento Web**, criando uma landing page totalmente responsiva e atrativa que simula uma apresentação de atualizações e expansões do jogo **GTA V Online**. Cada card redireciona o usuário para uma página externa, com base em funcionalidades JavaScript.
+O objetivo deste projeto é aplicar os conceitos aprendidos durante a Disciplina de **Desenvolvimento Web**, criando uma landing page atrativa que simula uma apresentação do jogo **GTA V e GTA Online**. 
 
 **Principais desafios abordados**:
 - Design responsivo para diferentes tamanhos de tela.
