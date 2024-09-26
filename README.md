@@ -23,12 +23,12 @@ O objetivo deste projeto é aplicar os conceitos aprendidos durante o curso de *
 - Implementação de funcionalidades de navegação dinâmica utilizando JavaScript.
 - Estruturação de um layout que utiliza componentes modernos de HTML e CSS.
 
-## Estrutura do Projeto 📂
+## Conclusão ✔️
 
-├── index.html           # Página principal
-├── styles.css           # Arquivo de estilos
-├── scripts.js           # Arquivo JavaScript para interatividade
-├── /src
-│   └── /imagens         # Imagens utilizadas nos cards
-└── README.md            # Documentação do projeto
+Este projeto foi fundamental para aprimorar minhas habilidades em **Desenvolvimento Web** e aplicar conceitos teóricos na prática. Com a criação desta landing page interativa e responsiva, pude consolidar meu conhecimento em **HTML**, **CSS** e **JavaScript**, além de explorar aspectos importantes de **design** voltado para uma boa experiência de usuário.
+
+O processo de desenvolvimento permitiu entender melhor a estruturação de layouts para diferentes dispositivos e o uso de funcionalidades dinâmicas através de JavaScript. O resultado é uma página funcional, moderna e visualmente atraente, inspirada no universo **GTA Online**.
+
+Sinta-se à vontade para explorar o projeto e contribuir com melhorias ou sugestões! 😊
+
 
